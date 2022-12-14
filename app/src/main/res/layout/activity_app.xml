@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="CS3120 Final Assessment Task"
+            android:textColor="#303030"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="This App demonstrate different Menu and Shared Preference"
+            android:textColor="#303030"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="monospace"
+            android:minHeight="32dp"
+            android:text="(Select this to show context menu) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum tempus auctor. Fusce magna augue, cursus sit amet lacus sed, malesuada aliquet nunc. Praesent at iaculis neque. Sed elementum ornare velit. Integer eu lacus a lorem vestibulum viverra sit amet et mi. Maecenas eget velit ultrices, facilisis justo non, interdum metus. Sed non condimentum ipsum, nec tempus lectus. In et nibh dui. Nunc a lacinia diam. Integer sit amet mauris quis est rutrum dignissim ut in diam. Pellentesque iaculis maximus neque at vehicula."
+            android:textColor="#272727"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#1976D2"
+            android:onClick="btnPop"
+            android:text="Click me to show Pop-up Menu"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#EFEFEF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Paste here"
+            android:inputType="textMultiLine"
+            android:textColor="#2B2B2B"
+            android:textColorHint="#202020" />
+    </LinearLayout>
+
+</LinearLayout>
